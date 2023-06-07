@@ -1,0 +1,41 @@
+/* #region Responsividade em 768px */
+@media screen and (max-width: 768px) {
+    .relogio {
+        width: 70%;
+    }
+
+    .relogio div {
+        width: 25%;
+        height: 20vh;
+    }
+
+    .relogio span {
+        font-size: 50px;
+    }
+
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+}
+/* #endregion */
+
+/* #region Responsividade em 480px */
+@media screen and (max-width: 480px) {
+    .relogio {
+        width: 80%;
+    }
+
+    .relogio div {
+        width: 25%;
+        height: 20vh;
+    }
+
+    .relogio span {
+        font-size: 40px;
+    }
+
+    .relogio span.tempo {
+        font-size: 10px;
+    }
+}
+/* #endregion */
